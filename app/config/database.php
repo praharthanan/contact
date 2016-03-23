@@ -48,7 +48,7 @@ return array(
         'mysql' => array(
             'driver' => 'mysql',
             'host' => 'localhost',
-            'database' => 'address_books',
+            'database' => 'address_book',
             'username' => 'root',
             'password' => '',
             'charset' => 'utf8',
