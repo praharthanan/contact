@@ -1,0 +1,186 @@
+.navbar-brand > img{
+    width: 80px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar{
+    margin-bottom: 50px;
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mainbox{
+    margin-bottom: 20px;
+}
+
+/*styles for the dealer page in admin*/
+
+.dealers-list.ui-component-list{
+    list-style: none;
+    padding: 0;
+}
+
+.dealers-list .ui-component-users{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #E6E6E6;
+    border-radius: 5px
+}
+
+.dealers-list ul{
+    list-style: none;
+    padding: 0;
+}
+
+textarea.vresize {
+    resize: vertical;
+    height:120px;
+    min-height:60px;
+    max-height:160px;
+}
+
+@media only screen and (min-width:768px){
+
+    .titles{
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (min-width:992px){
+
+
+    .dealers-list .ui-component-users{
+        width: 22%;
+        float: left;
+        margin: 0;
+        margin-right: 4%;
+    }
+
+    .dealers-list.ui-component-list li:last-child .ui-component-users{
+        margin-right: 0;
+    }
+}
+
+.dealers-list .ui-component-options{
+    text-align: right;
+}
+
+.dealers-list .ui-component-options a{
+    margin-right: 10px;
+}
+
+.dealers-list .ui-component-options a:hover, .dealers-list .ui-component-options a:focus{
+    text-decoration: none;
+}
+
+.dealers-list .user-name h3{
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+
+/*styles for the product page in admin*/
+
+.products-list.ui-component-list{
+    list-style: none;
+    padding: 0;
+}
+
+.products-list .ui-component-users{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #E6E6E6;
+    border-radius: 5px
+}
+
+.products-list ul{
+    list-style: none;
+    padding: 0;
+}
+
+@media only screen and (min-width:992px){
+
+    .products-list .ui-component-users{
+        width: 22%;
+        float: left;
+        margin: 0;
+        margin-right: 4%;
+        margin-bottom: 15px;
+    }
+
+    .products-list.ui-component-list li:nth-child(4n) .ui-component-users{
+        margin-right: 0;
+    }
+}
+
+.products-list .ui-component-options{
+    text-align: right;
+}
+
+.products-list .ui-component-options a{
+    margin-right: 10px;
+}
+
+.products-list .ui-component-options a:hover, .products-list .ui-component-options a:focus{
+    text-decoration: none;
+}
+
+.products-list .user-name h3{
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+/*user show page styles*/
+
+.ui-profile .user-quick-details ul{
+    padding: 0;
+    list-style: none;
+}
+
+.dealer-photo img,
+.product-photo img
+{
+    display: block;
+    max-height: 150px;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 2px;
+    border: 1px solid #F1F1F1;
+    padding:4px;
+}
+
+/* Login form */
+
+#login-form > div {
+    margin-bottom: 25px;
+}
+
+#login-form > div:last-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*notice admin styles*/
+.notice-block{
+    background-color: #ddd;
+    padding: 5px 8px;
+    margin-bottom: 10px;
+}
+
+.notice-block .ui-component-options{
+    text-align: right;
+}
